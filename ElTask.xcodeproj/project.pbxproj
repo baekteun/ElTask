@@ -11,6 +11,10 @@
 		4627348828C628AA00C74FF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627348728C628AA00C74FF0 /* ContentView.swift */; };
 		4627348A28C628AB00C74FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4627348928C628AB00C74FF0 /* Assets.xcassets */; };
 		4627348D28C628AB00C74FF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4627348C28C628AB00C74FF0 /* Preview Assets.xcassets */; };
+		4627349728C6294900C74FF0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627349628C6294900C74FF0 /* HomeView.swift */; };
+		4627349A28C6298700C74FF0 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627349928C6298700C74FF0 /* CustomDatePicker.swift */; };
+		4627349D28C62BBC00C74FF0 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627349C28C62BBC00C74FF0 /* DateValue.swift */; };
+		4627349F28C63B6900C74FF0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627349E28C63B6900C74FF0 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		4627348728C628AA00C74FF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4627348928C628AB00C74FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4627348C28C628AB00C74FF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4627349628C6294900C74FF0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4627349928C6298700C74FF0 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		4627349C28C62BBC00C74FF0 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		4627349E28C63B6900C74FF0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		4627348428C628AA00C74FF0 /* ElTask */ = {
 			isa = PBXGroup;
 			children = (
+				4627349B28C62BB600C74FF0 /* Model */,
+				4627349328C6293B00C74FF0 /* View */,
 				4627348528C628AA00C74FF0 /* ElTaskApp.swift */,
 				4627348728C628AA00C74FF0 /* ContentView.swift */,
 				4627348928C628AB00C74FF0 /* Assets.xcassets */,
@@ -65,6 +75,32 @@
 				4627348C28C628AB00C74FF0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4627349328C6293B00C74FF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4627349828C6298000C74FF0 /* Components */,
+				4627349628C6294900C74FF0 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4627349828C6298000C74FF0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4627349928C6298700C74FF0 /* CustomDatePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4627349B28C62BB600C74FF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4627349C28C62BBC00C74FF0 /* DateValue.swift */,
+				4627349E28C63B6900C74FF0 /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4627349A28C6298700C74FF0 /* CustomDatePicker.swift in Sources */,
+				4627349728C6294900C74FF0 /* HomeView.swift in Sources */,
 				4627348828C628AA00C74FF0 /* ContentView.swift in Sources */,
 				4627348628C628AA00C74FF0 /* ElTaskApp.swift in Sources */,
+				4627349F28C63B6900C74FF0 /* Task.swift in Sources */,
+				4627349D28C62BBC00C74FF0 /* DateValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
